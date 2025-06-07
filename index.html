@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+
+    <!-- ICONSCOUT CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-icons-font@v7/font/simple-icons.min.css">
+
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <div class="container">
+            <h3>      </h3>
+            <ul>
+                <li class="home active"><a href="#">Home</a></li>
+                <li class="about"><a href="#about">About</a></li>
+                <li class="skills"><a href="#skills">Skills</a></li>
+                <li class="project"><a href="#projects">Projects</a></li>
+                <li class="certifications"><a href="#certificates">Certifications</a></li>
+                <li class="contact"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <button><span class="material-icons-sharp">menu</span></button>
+    <button><span class="material-icons-sharp">close</span></button>
+
+    <!-------------------------------landing------------------------------>
+
+    <section class="landing">
+        <div class="container">
+            <div class="socials"><a href="https://sol-anzhvalencia3@gmail.com" target="_blank"><i class="uil uil-envelope"></i></a></div>
+            <div class="socials"><a href="tel:09304552450" target="_blank"><i class="uil uil-phone"></i></a></div>
+            <div class="socials"><a href="https://github.com/Sol-Anzh" target="_blank"><i class="uil uil-github"></i></a></div>
+        </div>
+
+        <div class="info">
+            <h1>Aspiring Software Developer</h1>
+            <div id="landing-text">
+                <h3>Hi, I'm Sol-Anzh</h3>
+            <p>Curious, driven, and excited to grow </p>
+            <p>I'm always learning new technologies to improve my skills <br> and I approach every project as a chance to learn something new.</p>
+            </div>
+
+            <div id="cv-container">
+                <div id="cv-area"><p><a href="\images\resume.pdf" download class="btn cv"><i class="uil uil-file-download"></i>Download CV</a></p></div>
+            </div>
+        </div>
+
+        <div class="profile"> 
+            <div class = "space"></div>
+            <div class="icon">
+                <img src="\images\pfp_icon.jpg">
+            </div>
+        </div>
+
+    </section>
+
+    <!--------------------------------about--------------------------------->
+
+    <section class="about" id="about">
+        <h1 class="head-title">About</h1>
+        <div class="container">
+            <div class="image">
+                <img src="\images\img2.jpg" alt="Profile Picture">
+            </div>
+
+            <div class="info">
+                <p>Hi, I'm Sol-Anzh. I specialize in front-end development 
+                    with a growing interest in full-stack technologies.
+                    I hold a degree in Bachelor of Science in Computer Engineering from 
+                    University of Rizal System.
+                    I'm currently exploring and deepening my knowledge in different frameworks,
+                     libraries, and modern tools such as React, Git, and Github.
+                    I'm actively seeking opportunities to grow as a developer in a 
+                    collaborative team environment. 
+                    When I'm not coding, you'll likely find me reading, looking up trivias, 
+                    drawing, or solving puzzles.
+                </p>
+            </div>
+            
+    </section>
+
+    <!----------------------------------skills----------------------------------->
+
+    <section class="skills" id="skills">
+        <h1 class="head-title">Skills</h1>
+        <div class="skills-container">
+
+            <div class="skills-list">
+                <div class="skill-title">Programming and Markup Languages</div>
+                <div class="lang-tech">
+                    <img class="skills-icons" src="https://simpleicons.org/icons/javascript.svg" title="Javascript"/>
+                    <img class="skills-icons" src="https://simpleicons.org/icons/python.svg" title="Python"/>
+                    <img class="skills-icons" src="https://simpleicons.org/icons/html5.svg" title="HTML"/>
+                    <img class="skills-icons" src="https://img.icons8.com/?size=100&id=qTLQNQjXAvIV&format=png&color=000000" title="CSS"/>
+<!--                <img class="skills-icons" src="https://simpleicons.org/icons/cplusplus.svg" title="C++"/>  -->  
+                    <img class="skills-icons" src="https://img.icons8.com/?size=100&id=ywH6EJgZ7sm5&format=png&color=000000" title="SQL"/>
+                    <img class="skills-icons" src="https://simpleicons.org/icons/php.svg" title="PHP"/>
+
+                </div>
+                
+                <div class="skill-title">Frameworks and Libraries</div>
+                <div class="lang-tech">
+                    <img class="skills-icons" src="https://simpleicons.org/icons/react.svg" title="React"/>
+
+                </div>
+
+                <div class="skill-title">Tools and Platforms</div>
+                <div class="lang-tech">
+                    <img class="skills-icons" src="https://simpleicons.org/icons/git.svg" title="Git"/>
+                    <img class="skills-icons" src="https://simpleicons.org/icons/github.svg" title="Github"/>
+                    <img class="skills-icons" src="https://img.icons8.com/?size=100&id=9t5UEEYXq0ZS&format=png&color=000000" title="VS Code"/>
+                    
+
+                </div>
+                
+            
+    </section>
+
+    <!----------------------------------projects--------------------------->
+    <section class="projects" id="projects">
+    <h1 class="head-title">Projects</h1>
+    <div class="container">
+        <div class="card">
+        <div class="face face1">
+            <div class="content">
+            <div class="icon">
+                <img class="project-card" src="/images/trivia-quiz.png" alt="Trivia Quiz" />
+            </div>
+            </div>
+        </div>
+
+        <div class="face face2">
+            <div class="content">
+            <h3><a href="https://sol-anzh.github.io/trivia-quiz-project/index.html" target="_blank">Trivia Quiz Game</a></h3>
+            <p>A trivia quiz game with several categories to choose from. The questions were taken from
+                the book General Information Reviewer by Butch S. Lorenzo.
+            </p>
+            <p>Languages used: HTML, CSS, Javascript</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="card">
+        <div class="face face1">
+            <div class="content">
+            <div class="icon">
+                <img class="project-card" src="/images/dictionary-app.png" alt="Trivia Quiz" />
+            </div>
+            </div>
+        </div>
+
+        <div class="face face2">
+            <div class="content">
+            <h3><a href="https://github.com/Sol-Anzh/dictionary-app" target="_blank">Dictionary App</a></h3>
+            <p>A simple dictionary app that utilized the CTKinter Python library and the Dictionary API</p>
+            <p>Languages used: Python</p>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <!----------------------------------certifications----------------------------->
+    <section class="certifications" id="certificates"> 
+    <h1 class="head-title">Certifications</h1>
+    <div class="container">
+        <div class="cert-card">
+        <h4>Computer Systems Servicing</h4>
+        <div class="cert-image">
+            <img class="img-modal" src="/images/nc-cert.jpeg" alt="Certification 2">
+            <div class="overlay"></div>
+        </div>
+        </div>
+    
+        <div class="cert-card">
+        <h4>Introduction to Python</h4>
+        <div class="cert-image">
+            <img class="img-modal" src="/images/python-cert.jpg" alt="Certification 1">
+            <div class="overlay"></div>
+        </div>
+        </div>
+    
+        <div class="cert-card">
+        <h4>Full-Stack Development</h4>
+        <div class="cert-image">
+            <img class="img-modal" src="/images/fullstack-cert.jpg" alt="Certification 2">
+            <div class="overlay"></div>
+        </div>
+        </div>
+    
+        <div class="cert-card">
+        <h4>Introduction to SQL</h4>
+        <div class="cert-image">
+            <img class="img-modal" src="/images/sql-cert.jpg" alt="Certification 2">
+            <div class="overlay"></div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+
+       
+
+    <!----------------------------------contact----------------------------------->
+
+    <section class="contact" id="contact">
+        <h1 class="head-title">Contact</h1>
+        <div class="contact-container">
+            <div id="white-div">
+                <div id="contact-info">
+                    <p>If you have any questions or would like to get in touch, feel free to reach out via the form below.</p>
+                
+                    <form action="https://formspree.io/f/mkgbwkga" method="POST">
+                    <input type="text" name="Name" placeholder="Name" required>
+                    <input type="email" name="Email" placeholder="Email" required>
+                    <input type="text" name="Subject" placeholder="Subject" required>
+                    <textarea name="Message" placeholder="Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <!----------------------------------footer----------------------------------->
+    <footer>
+        <div class="container">
+            <div class="socials">
+                <a href="https://www.facebook.com/solanzh.valencia" target="_blank"><i class="uil uil-facebook-f">Facebook</i></a>
+                <a href="tel:09304552450" target="_blank"><i class="uil uil-phone">09304552450</i></a>
+            </div>
+        </div>
+    </footer>
+                
+
+</body>
+</html>
