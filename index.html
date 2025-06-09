@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Sol-Anzh Valencia</title>
 
     <!-- Font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
@@ -13,9 +13,9 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-icons-font@v7/font/simple-icons.min.css">
 
-
-
     <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
 </head>
 <body>
     
@@ -33,8 +33,8 @@
         </div>
     </nav>
 
-    <button><span class="material-icons-sharp">menu</span></button>
-    <button><span class="material-icons-sharp">close</span></button>
+    <button id="menu-btn"><span class="material-icons-sharp">menu</span></button>
+    <button id="close-btn"><span class="material-icons-sharp">close</span></button>
 
     <!-------------------------------landing------------------------------>
 
@@ -47,6 +47,7 @@
 
         <div class="info">
             <h1>Aspiring Software Developer</h1>
+            
             <div id="landing-text">
                 <h3>Hi, I'm Sol-Anzh</h3>
             <p>Curious, driven, and excited to grow </p>
@@ -54,7 +55,7 @@
             </div>
 
             <div id="cv-container">
-                <div id="cv-area"><p><a href="\images\resume.pdf" download class="btn cv"><i class="uil uil-file-download"></i>Download CV</a></p></div>
+                <div id="cv-area"><p><a href="/images/resume.pdf" download class="btn cv"><i class="uil uil-file-download"></i>Download CV</a></p></div>
             </div>
         </div>
 
@@ -157,7 +158,7 @@
         <div class="face face1">
             <div class="content">
             <div class="icon">
-                <img class="project-card" src="/images/dictionary-app.png" alt="Trivia Quiz" />
+                <img class="project-card" src="/images/dictionary-app.png" alt="Dictionary App" />
             </div>
             </div>
         </div>
@@ -166,7 +167,7 @@
             <div class="content">
             <h3><a href="https://github.com/Sol-Anzh/dictionary-app" target="_blank">Dictionary App</a></h3>
             <p>A simple dictionary app that utilized the CTKinter Python library and the Dictionary API</p>
-            <p>Languages used: Python</p>
+            <p>Language used: Python</p>
             </div>
         </div>
         </div>
@@ -174,21 +175,36 @@
     </section>
 
     <!----------------------------------certifications----------------------------->
-    <section class="certifications" id="certificates"> 
+<section class="certifications" id="certificates"> 
     <h1 class="head-title">Certifications</h1>
     <div class="container">
         <div class="cert-card">
-        <h4>Computer Systems Servicing</h4>
-        <div class="cert-image">
-            <img class="img-modal" src="/images/nc-cert.jpeg" alt="Certification 2">
-            <div class="overlay"></div>
+            <h4>Computer Systems Servicing</h4>
+            <div class="cert-image">
+                <img class="img-modal" src="/images/nc-cert.jpeg" data-zoom alt="Certification 1">          
+                <div class="overlay"></div>
+            </div>
         </div>
+
+        <!-- 
+        <div id="popup" class="popup">
+            <span class="close">&times;</span>
+            <img class="popup-img" src="/images/nc-cert.jpeg" alt="enlarged image">
         </div>
-    
+
+         -->
+
+        <!-- 
+        <div id="imageModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImg">
+        </div>
+         -->
+
         <div class="cert-card">
         <h4>Introduction to Python</h4>
         <div class="cert-image">
-            <img class="img-modal" src="/images/python-cert.jpg" alt="Certification 1">
+            <img class="img-modal" src="/images/python-cert.jpg" alt="Certification 2">
             <div class="overlay"></div>
         </div>
         </div>
@@ -196,7 +212,7 @@
         <div class="cert-card">
         <h4>Full-Stack Development</h4>
         <div class="cert-image">
-            <img class="img-modal" src="/images/fullstack-cert.jpg" alt="Certification 2">
+            <img class="img-modal" src="/images/fullstack-cert.jpg" alt="Certification 3">
             <div class="overlay"></div>
         </div>
         </div>
@@ -204,7 +220,7 @@
         <div class="cert-card">
         <h4>Introduction to SQL</h4>
         <div class="cert-image">
-            <img class="img-modal" src="/images/sql-cert.jpg" alt="Certification 2">
+            <img class="img-modal" src="/images/sql-cert.jpg" alt="Certification 4">
             <div class="overlay"></div>
         </div>
         </div>
@@ -247,6 +263,60 @@
         </div>
     </footer>
                 
+<script>
+
+    /*
+    document.addEventListener('DOMContentLoaded', () => {
+  const popup = document.getElementById('popup');
+  const popupImg = document.querySelector('.popup-img');
+  const closeBtn = document.querySelector('.popup .close');
+
+  
+  document.querySelectorAll('.img-modal').forEach(img => {
+    img.addEventListener('click', () => {
+      console.log('Image clicked:', img.src);
+      popup.style.display = 'flex';
+      popupImg.src = img.src;  
+    });
+  });
+
+
+  closeBtn.addEventListener('click', () => {
+    popup.style.display = 'none';
+    popupImg.src = '';
+  });
+
+  
+  popup.addEventListener('click', e => {
+    if (e.target === popup) {
+      popup.style.display = 'none';
+      popupImg.src = '/images/nc-cert.jpeg';
+    }
+  });
+});
+*/
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const menuBtn = document.getElementById('menu-btn');
+    const closeBtn = document.getElementById('close-btn');
+    const navMenu = document.querySelector('nav ul');
+
+    menuBtn.addEventListener('click', () => {
+      navMenu.style.display = 'flex';
+      menuBtn.style.display = 'none';
+      closeBtn.style.display = 'flex';
+    });
+
+    closeBtn.addEventListener('click', () => {
+      navMenu.style.display = 'none';
+      menuBtn.style.display = 'flex';
+      closeBtn.style.display = 'none';
+    });
+  });
+
+
+</script>
+
 
 </body>
 </html>
