@@ -637,8 +637,7 @@ footer{
 
 footer .container .socials{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
     gap: 1rem;
 }
 
