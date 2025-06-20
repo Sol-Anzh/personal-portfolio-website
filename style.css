@@ -588,6 +588,10 @@ footer .container .socials a{
         width: 100%;
     }
 
+    nav ul.show {
+        display: flex;
+    }
+
     nav ul{
         position: fixed;
         top: 0;
@@ -598,12 +602,8 @@ footer .container .socials a{
         height: 100vh;
         background-color: #fff;
         box-shadow: 1rem 0 2rem rgba(0, 0, 0, 0.2);
-        display: none !important;
+        display: none;
     }
-
-    nav ul.show {
-    display: flex;
-}
 
     nav ul li{
         height: 5rem;
