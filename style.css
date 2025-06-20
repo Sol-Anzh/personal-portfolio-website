@@ -728,6 +728,10 @@ footer .container .socials a{
         grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     }
 
+.skills-icons{
+        height: 1.2vh;
+  }
+
     /*projects section*/
 
     section.projects .container {
