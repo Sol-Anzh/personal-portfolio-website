@@ -601,6 +601,10 @@ footer .container .socials a{
         display: none;
     }
 
+    nav ul.show {
+    display: flex;
+}
+
     nav ul li{
         height: 4.6rem;
         width: 100%;
