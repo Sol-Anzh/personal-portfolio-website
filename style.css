@@ -668,6 +668,7 @@ footer .container .socials a{
     section.landing .info{
         text-align: center;
         margin: 0 auto;
+        margin-right: 0;
         width: fit-content;
         border: 1px solid black;
     }
