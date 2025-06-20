@@ -659,6 +659,7 @@ footer .container .socials a{
         grid-template-rows: 20% 50%;
         text-align: center;
         row-gap: 1rem;
+border: solid 1px;
     }
 
     section.landing .container .socials{
