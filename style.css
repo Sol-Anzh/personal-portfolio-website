@@ -726,11 +726,9 @@ footer .container .socials a{
 
     section.skills .skills-container{
         grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+       padding: 1rem 2rem;
+       margin: 0;
     }
-
-.skills-icons{
-       width: 1.2vw;
-  }
 
     /*projects section*/
 
