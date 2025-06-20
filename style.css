@@ -652,6 +652,7 @@ footer .container .socials a{
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+border: solid green 1px;
     }   
 
     section.landing .container{
@@ -671,6 +672,7 @@ border: solid 1px;
         margin: 0 auto;
         margin-right: 0;
         width: fit-content;
+border: solid 1px red;
     }
 
     section.landing .info h1{
