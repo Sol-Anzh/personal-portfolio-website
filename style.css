@@ -273,13 +273,13 @@ section.about{
 .about .head-title{
     margin-top: 0rem;
     padding-top: 4rem;
-    padding-bottom: 0;
+    padding-bottom: 3rem;
 }
 
 section.about .container{
     display: grid;
     grid-template-columns: 35vw auto;
-    gap: 6rem;
+    gap: 4rem;
     padding-top: 0;
 }
 
