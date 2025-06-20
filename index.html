@@ -255,13 +255,13 @@
     const navMenu = document.querySelector('nav ul');
 
     menuBtn.addEventListener('click', () => {
-      navMenu.classList.add('show');
+      navMenu.style.display = 'flex';
       menuBtn.style.display = 'none';
       closeBtn.style.display = 'flex';
     });
 
     closeBtn.addEventListener('click', () => {
-      navMenu.classList.remove('show');
+      navMenu.style.display = 'none';
       menuBtn.style.display = 'flex';
       closeBtn.style.display = 'none';
     });
