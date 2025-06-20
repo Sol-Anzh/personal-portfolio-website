@@ -650,6 +650,8 @@ footer .container .socials a{
         overflow-x: hidden;
         display: flex;
         flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }   
 
     section.landing .container{
