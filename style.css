@@ -641,7 +641,7 @@ footer .container .socials a{
         cursor: pointer;
     }
 
-    nav button #close-btn{
+    #close-btn{
         display: none;
     }
 
