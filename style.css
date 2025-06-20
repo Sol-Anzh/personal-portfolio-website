@@ -672,6 +672,7 @@ footer .container .socials a{
     section.landing .info h1{
         text-align: center;
         margin: 0;
+        gap: 0;
     }
 
     section.landing .info #landing-text{
