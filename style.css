@@ -679,13 +679,14 @@ footer .container .socials a{
 
     section.landing .info #landing-text{
         text-align: center;
-        margin: 0 auto;
+        margin: 1rem auto;
         width: 100%;
     }
 
     section.landing .info h3{
         text-align: center;
         margin-left: 0;
+        margin-bottom: 1rem;
         padding: 0 1rem;
 
     }
