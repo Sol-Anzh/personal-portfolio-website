@@ -667,6 +667,7 @@ footer .container .socials a{
         text-align: center;
         margin: 0 auto 2rem auto;
         width: fit-content;
+        border: 1px dashed red;
     }
 
     section.landing .info h1{
