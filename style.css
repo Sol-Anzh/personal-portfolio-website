@@ -283,6 +283,10 @@ section.about .container{
     padding-top: 0;
 }
 
+section.about .image img{
+    margin: 0;
+}
+
 section.about p{
     margin-top: 1rem;
     padding: 1rem;
