@@ -278,7 +278,7 @@ section.about{
 
 section.about .container{
     display: grid;
-    grid-template-columns: 50vw auto;
+    grid-template-columns: 40vw auto;
     gap: 6rem;
     padding-top: 0;
 }
