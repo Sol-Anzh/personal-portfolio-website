@@ -695,6 +695,7 @@ footer .container .socials a{
         margin: 0 auto;
         width: 92%;
         text-align: center;
+border: solid 1px;
     }
 
     .cv{
