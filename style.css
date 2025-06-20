@@ -739,11 +739,11 @@ footer .container .socials a{
         width: 97%;
         margin: 0 auto;
         text-align: center;
-        margin-right: auto;
     }
 
     section.landing .info h1{
         text-align: center;
+        margin-right: 0;
     }
 
     section.landing .info #landing-text{
@@ -763,6 +763,10 @@ footer .container .socials a{
         margin: 0 auto;
         width: 92%;
         text-align: center;
+    }
+
+    .cv{
+        font-size: 1.3vw;
     }
 
     section.landing .profile{
